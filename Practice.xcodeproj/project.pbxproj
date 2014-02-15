@@ -10,6 +10,10 @@
 		EFBF280018AFC9E300F0B1FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBF27FF18AFC9E300F0B1FE /* Foundation.framework */; };
 		EFBF280318AFC9E300F0B1FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF280218AFC9E300F0B1FE /* main.m */; };
 		EFBF280718AFC9E300F0B1FE /* Practice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFBF280618AFC9E300F0B1FE /* Practice.1 */; };
+		EFBF280F18AFC9EF00F0B1FE /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF280E18AFC9EF00F0B1FE /* Card.m */; };
+		EFBF281218AFCB5B00F0B1FE /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF281118AFCB5B00F0B1FE /* Deck.m */; };
+		EFBF281518AFCD8900F0B1FE /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF281418AFCD8900F0B1FE /* PlayingCard.m */; };
+		EFBF281818AFD24E00F0B1FE /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF281718AFD24E00F0B1FE /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		EFBF280218AFC9E300F0B1FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFBF280518AFC9E300F0B1FE /* Practice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice-Prefix.pch"; sourceTree = "<group>"; };
 		EFBF280618AFC9E300F0B1FE /* Practice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Practice.1; sourceTree = "<group>"; };
+		EFBF280D18AFC9EF00F0B1FE /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EFBF280E18AFC9EF00F0B1FE /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		EFBF281018AFCB5B00F0B1FE /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		EFBF281118AFCB5B00F0B1FE /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		EFBF281318AFCD8900F0B1FE /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		EFBF281418AFCD8900F0B1FE /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		EFBF281618AFD24E00F0B1FE /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		EFBF281718AFD24E00F0B1FE /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				EFBF280218AFC9E300F0B1FE /* main.m */,
+				EFBF280D18AFC9EF00F0B1FE /* Card.h */,
+				EFBF281018AFCB5B00F0B1FE /* Deck.h */,
+				EFBF281318AFCD8900F0B1FE /* PlayingCard.h */,
+				EFBF281618AFD24E00F0B1FE /* PlayingCardDeck.h */,
+				EFBF281718AFD24E00F0B1FE /* PlayingCardDeck.m */,
+				EFBF281418AFCD8900F0B1FE /* PlayingCard.m */,
+				EFBF281118AFCB5B00F0B1FE /* Deck.m */,
+				EFBF280E18AFC9EF00F0B1FE /* Card.m */,
 				EFBF280618AFC9E300F0B1FE /* Practice.1 */,
 				EFBF280418AFC9E300F0B1FE /* Supporting Files */,
 			);
@@ -139,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBF281818AFD24E00F0B1FE /* PlayingCardDeck.m in Sources */,
 				EFBF280318AFC9E300F0B1FE /* main.m in Sources */,
+				EFBF281218AFCB5B00F0B1FE /* Deck.m in Sources */,
+				EFBF281518AFCD8900F0B1FE /* PlayingCard.m in Sources */,
+				EFBF280F18AFC9EF00F0B1FE /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
